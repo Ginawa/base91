@@ -1,7 +1,7 @@
 base91
 ======
 
-Base91 Encoder/Decode in Javascript implementation
+Base91 Encoder/Decoder in Javascript implementation
 
  
  @author Mohammed Adnane Morabet, (Free to use, but leave my name)
