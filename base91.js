@@ -21,7 +21,7 @@ var BasE91 = (function(fromCharCode, parseInt){
 	   this.ebp = 0, this.enm = 0, this.estr = '';
 	},
 	be.dClear = function(){
-	   this.dbp = 0,	this.dnm = 0,	this.dstr = '', this.dv = -1;
+	   this.dbp = 0, this.dnm = 0, this.dstr = '', this.dv = -1;
 	};
 
    be.eClear();
