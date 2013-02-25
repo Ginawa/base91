@@ -13,16 +13,16 @@
 
 var BasE91 = (function(fromCharCode, parseInt){
   
-	var be = this;
-	
-	be.edic   = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!#$%&()*+,./:;<=>?@[]^_`{|}~"',
-	be.ddic   = [],be.ebp,be.enm,be.estr,be.dbp,be.dnm,be.dv,be.dstr,
-	be.eClear = function(){
-	   this.ebp = 0, this.enm = 0, this.estr = '';
-	},
-	be.dClear = function(){
-	   this.dbp = 0, this.dnm = 0, this.dstr = '', this.dv = -1;
-	};
+   var be = this;
+
+   be.edic   = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!#$%&()*+,./:;<=>?@[]^_`{|}~"',
+   be.ddic   = [],be.ebp,be.enm,be.estr,be.dbp,be.dnm,be.dv,be.dstr,
+   be.eClear = function(){
+     this.ebp = 0, this.enm = 0, this.estr = '';
+   },
+   be.dClear = function(){
+     this.dbp = 0, this.dnm = 0, this.dstr = '', this.dv = -1;
+   };
 
    be.eClear();
    be.dClear();
